@@ -1,0 +1,176 @@
+👋 Hi there! I'm the Lab AI virtual assistant. How can I help you today?
+12:50 PM
+hello
+12:51 PM
+👋 WELCOME TO LAB AI 👋
+
+Hello there! I'm your virtual customer service assistant, ready to help 24/7.
+
+Please select a number from the menu below:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+To select an option, please reply with its number only (1-8).
+For example, type '2' for pricing and package details.
+12:51 PM
+1
+12:51 PM
+🌐 WEBSITE DESIGN & DEVELOPMENT SERVICES 🌐
+
+Here's what we offer:
+
+1️⃣ Custom responsive design for all devices
+2️⃣ User experience (UX) focused layouts
+3️⃣ Search engine optimization (SEO)
+4️⃣ Content management systems
+5️⃣ E-commerce solutions
+0️⃣ Return to main menu
+
+To learn more about a specific service, please reply with its number (1-5).
+For example, type '1' for details about custom responsive design.
+12:51 PM
+3
+12:51 PM
+🔍 SEARCH ENGINE OPTIMIZATION (SEO) 🔍
+
+Our SEO services help your website rank higher in search results:
+
+• Keyword research and strategic implementation
+• On-page optimization (meta tags, headers, content)
+• Technical SEO (site speed, mobile-friendliness, indexing)
+• Local SEO for businesses serving specific areas
+• Regular performance reporting and strategy adjustments
+
+We focus on sustainable, white-hat SEO practices that provide long-term results.
+
+What would you like to do next?
+
+9️⃣ Return to website services menu
+0️⃣ Return to main menu
+12:51 PM
+0
+12:51 PM
+🏠 MAIN MENU 🏠
+
+How can I help you today? Please select a number:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+Please reply with a number (1-8) to select an option.
+12:51 PM
+8
+12:51 PM
+🛠️ TECHNICAL SUPPORT 🛠️
+
+What type of support do you need?
+
+1️⃣ Website issues or errors
+2️⃣ Dashboard access problems
+3️⃣ Analytics data questions
+4️⃣ Billing or payment issues
+5️⃣ Speak with a support specialist
+0️⃣ Return to main menu
+
+Please reply with the number that matches your issue (1-5).
+For example, type '1' for help with website issues.
+12:51 PM
+1
+12:52 PM
+🌐 WEBSITE DESIGN & DEVELOPMENT SERVICES 🌐
+
+Here's what we offer:
+
+1️⃣ Custom responsive design for all devices
+2️⃣ User experience (UX) focused layouts
+3️⃣ Search engine optimization (SEO)
+4️⃣ Content management systems
+5️⃣ E-commerce solutions
+0️⃣ Return to main menu
+
+To learn more about a specific service, please reply with its number (1-5).
+For example, type '1' for details about custom responsive design.
+12:52 PM
+1
+12:52 PM
+🌐 WEBSITE DESIGN & DEVELOPMENT SERVICES 🌐
+
+Here's what we offer:
+
+1️⃣ Custom responsive design for all devices
+2️⃣ User experience (UX) focused layouts
+3️⃣ Search engine optimization (SEO)
+4️⃣ Content management systems
+5️⃣ E-commerce solutions
+0️⃣ Return to main menu
+
+To learn more about a specific service, please reply with its number (1-5).
+For example, type '1' for details about custom responsive design.
+12:52 PM
+2
+12:52 PM
+🎨 USER EXPERIENCE (UX) DESIGN 🎨
+
+Our UX-focused layouts are designed to delight visitors and drive conversions:
+
+• Intuitive navigation that guides users to key information
+• Strategic call-to-action placement for higher conversion rates
+• Consistent design elements for easy brand recognition
+• User testing to ensure optimal usability
+• Accessible design that works for all users
+
+Our UX process includes user research, wireframing, prototyping, and iterative testing.
+
+What would you like to do next?
+
+9️⃣ Return to website services menu
+0️⃣ Return to main menu
+12:52 PM
+0
+12:52 PM
+🏠 MAIN MENU 🏠
+
+How can I help you today? Please select a number:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+Please reply with a number (1-8) to select an option.
+12:52 PM
+3
+12:52 PM
+🔍 SEARCH ENGINE OPTIMIZATION (SEO) 🔍
+
+Our SEO services help your website rank higher in search results:
+
+• Keyword research and strategic implementation
+• On-page optimization (meta tags, headers, content)
+• Technical SEO (site speed, mobile-friendliness, indexing)
+• Local SEO for businesses serving specific areas
+• Regular performance reporting and strategy adjustments
+
+We focus on sustainable, white-hat SEO practices that provide long-term results.
+
+What would you like to do next?
+
+9️⃣ Return to website services menu
+0️⃣ Return to main menu

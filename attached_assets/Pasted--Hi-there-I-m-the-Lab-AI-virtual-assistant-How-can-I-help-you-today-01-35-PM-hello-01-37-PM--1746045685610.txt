@@ -1,0 +1,371 @@
+👋 Hi there! I'm the Lab AI virtual assistant. How can I help you today?
+01:35 PM
+hello
+01:37 PM
+🏠 MAIN MENU 🏠
+
+How can I help you today? Please select a number:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+Please reply with a number (1-8) to select an option.
+01:37 PM
+1
+01:37 PM
+🌐 WEBSITE DESIGN & DEVELOPMENT SERVICES 🌐
+
+Here's what we offer:
+
+1️⃣ Custom responsive design for all devices
+2️⃣ User experience (UX) focused layouts
+3️⃣ Search engine optimization (SEO)
+4️⃣ Content management systems
+5️⃣ E-commerce solutions
+0️⃣ Return to main menu
+
+To learn more about a specific service, please reply with its number (1-5).
+For example, type '1' for details about custom responsive design.
+01:37 PM
+1
+01:37 PM
+📱 CUSTOM RESPONSIVE DESIGN 📱
+
+Our responsive design services ensure your website looks great on all devices:
+
+• Mobile-first design approach for optimal viewing on all screens
+• Flexible layouts that adjust to any screen size
+• Touch-friendly navigation for mobile users
+• Fast loading speeds on all devices
+• Testing across multiple browsers and devices
+• Consistent branding and user experience
+
+We create websites that deliver the same high-quality experience no matter how users access them.
+
+What would you like to do next?
+
+9️⃣ Return to website services menu
+0️⃣ Return to main menu
+01:37 PM
+0
+01:37 PM
+🏠 MAIN MENU 🏠
+
+How can I help you today? Please select a number:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+Please reply with a number (1-8) to select an option.
+01:37 PM
+2
+01:37 PM
+💰 PRICING & PACKAGES 💰
+
+We offer three main packages:
+
+1️⃣ Starter ($750-$1000): Perfect for small businesses
+2️⃣ Growth ($1500-$2000): Ideal for growing businesses
+3️⃣ Pro Custom ($2500-$4000): For established businesses
+0️⃣ Return to main menu
+
+For detailed information about a specific package, please reply with its number (1-3).
+For example, type '1' to learn about our Starter package.
+01:37 PM
+1
+01:37 PM
+💰 STARTER PACKAGE ($750-$1000) 💰
+
+Our Starter package includes:
+
+• Custom website design (3-5 pages)
+• Basic SEO optimization
+• Mobile responsive design
+• Contact form setup
+• Social media integration
+• Basic analytics setup
+• 1 hour training session
+
+Perfect for small businesses just getting started with their online presence.
+
+What would you like to do next?
+
+9️⃣ Return to pricing menu
+0️⃣ Return to main menu
+01:37 PM
+0
+01:37 PM
+🏠 MAIN MENU 🏠
+
+How can I help you today? Please select a number:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+Please reply with a number (1-8) to select an option.
+01:37 PM
+3
+01:37 PM
+📅 SCHEDULE A CONSULTATION 📅
+
+Here are your options to schedule a consultation:
+
+1️⃣ Book online at /schedule-consultation
+2️⃣ Call us directly at 602-810-1789
+3️⃣ Request a callback from our team
+0️⃣ Return to main menu
+
+Please reply with the number of your preferred option (1-3).
+For example, type '1' to book online.
+01:37 PM
+3
+01:38 PM
+🔄 REQUEST A CALLBACK 🔄
+
+To request a callback from our team:
+
+1. Visit our contact page at /contact
+2. Fill out the callback request form
+3. Indicate your preferred callback times
+4. Submit your request
+
+A member of our team will call you back within one business day. Please ensure you provide a valid phone number and the best times to reach you.
+
+What would you like to do next?
+
+9️⃣ Return to consultation menu
+0️⃣ Return to main menu
+01:38 PM
+0
+01:38 PM
+🏠 MAIN MENU 🏠
+
+How can I help you today? Please select a number:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+Please reply with a number (1-8) to select an option.
+01:38 PM
+4
+01:38 PM
+📊 ANALYTICS & SOCIAL MEDIA SERVICES 📊
+
+Here's what we offer:
+
+1️⃣ Website performance tracking
+2️⃣ Social media management
+3️⃣ Content creation and strategy
+4️⃣ Audience growth campaigns
+5️⃣ Competition analysis
+0️⃣ Return to main menu
+
+To learn more about a specific service, please reply with its number (1-5).
+For example, type '1' for details about website performance tracking.
+01:38 PM
+5
+01:38 PM
+📊 ANALYTICS & SOCIAL MEDIA SERVICES 📊
+
+Here's what we offer:
+
+1️⃣ Website performance tracking
+2️⃣ Social media management
+3️⃣ Content creation and strategy
+4️⃣ Audience growth campaigns
+5️⃣ Competition analysis
+0️⃣ Return to main menu
+
+To learn more about a specific service, please reply with its number (1-5).
+For example, type '1' for details about website performance tracking.
+01:38 PM
+1
+01:38 PM
+📊 ANALYTICS & SOCIAL MEDIA SERVICES 📊
+
+Here's what we offer:
+
+1️⃣ Website performance tracking
+2️⃣ Social media management
+3️⃣ Content creation and strategy
+4️⃣ Audience growth campaigns
+5️⃣ Competition analysis
+0️⃣ Return to main menu
+
+To learn more about a specific service, please reply with its number (1-5).
+For example, type '1' for details about website performance tracking.
+01:38 PM
+0
+01:38 PM
+🏠 MAIN MENU 🏠
+
+How can I help you today? Please select a number:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+Please reply with a number (1-8) to select an option.
+01:38 PM
+4
+01:38 PM
+📊 ANALYTICS & SOCIAL MEDIA SERVICES 📊
+
+Here's what we offer:
+
+1️⃣ Website performance tracking
+2️⃣ Social media management
+3️⃣ Content creation and strategy
+4️⃣ Audience growth campaigns
+5️⃣ Competition analysis
+0️⃣ Return to main menu
+
+To learn more about a specific service, please reply with its number (1-5).
+For example, type '1' for details about website performance tracking.
+01:38 PM
+0
+01:38 PM
+🏠 MAIN MENU 🏠
+
+How can I help you today? Please select a number:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+Please reply with a number (1-8) to select an option.
+01:38 PM
+7
+01:39 PM
+🔐 ACCOUNT & LOGIN HELP 🔐
+
+What do you need assistance with?
+
+1️⃣ Access the login page at /auth
+2️⃣ Reset your password
+3️⃣ Create a new account
+4️⃣ Speak with account support
+0️⃣ Return to main menu
+
+Please reply with the number that matches your need (1-4).
+For example, type '2' for password reset help.
+01:39 PM
+4
+01:39 PM
+🔐 ACCOUNT & LOGIN HELP 🔐
+
+What do you need assistance with?
+
+1️⃣ Access the login page at /auth
+2️⃣ Reset your password
+3️⃣ Create a new account
+4️⃣ Speak with account support
+0️⃣ Return to main menu
+
+Please reply with the number that matches your need (1-4).
+For example, type '2' for password reset help.
+01:39 PM
+2
+01:39 PM
+🔐 ACCOUNT & LOGIN HELP 🔐
+
+What do you need assistance with?
+
+1️⃣ Access the login page at /auth
+2️⃣ Reset your password
+3️⃣ Create a new account
+4️⃣ Speak with account support
+0️⃣ Return to main menu
+
+Please reply with the number that matches your need (1-4).
+For example, type '2' for password reset help.
+01:39 PM
+0
+01:39 PM
+🏠 MAIN MENU 🏠
+
+How can I help you today? Please select a number:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+Please reply with a number (1-8) to select an option.
+01:39 PM
+8
+01:39 PM
+🛠️ TECHNICAL SUPPORT 🛠️
+
+What type of support do you need?
+
+1️⃣ Website issues or errors
+2️⃣ Dashboard access problems
+3️⃣ Analytics data questions
+4️⃣ Billing or payment issues
+5️⃣ Speak with a support specialist
+0️⃣ Return to main menu
+
+Please reply with the number that matches your issue (1-5).
+For example, type '1' for help with website issues.
+01:39 PM
+1
+01:39 PM
+🌐 WEBSITE ISSUES OR ERRORS 🌐
+
+Common website issues and troubleshooting steps:
+
+• Pages not loading correctly - Check your internet connection, try a different browser, or clear your cache
+• Broken links - Report specific URLs that aren't working
+• Form submission errors - Make sure all required fields are filled correctly
+• Layout problems on mobile - Try rotating your device or using a different browser
+• Images not displaying - Check your connection or try refreshing the page
+
+For persistent issues, please provide:
+1. Which page you're experiencing the issue on
+2. What device and browser you're using
+3. Screenshots of the error if possible
+
+What would you like to do next?
+
+9️⃣ Return to technical support menu
+0️⃣ Return to main menu
+01:39 PM

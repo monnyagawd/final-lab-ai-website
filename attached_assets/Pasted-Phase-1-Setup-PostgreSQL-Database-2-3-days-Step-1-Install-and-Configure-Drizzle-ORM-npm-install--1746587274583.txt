@@ -1,0 +1,138 @@
+Phase 1: Setup PostgreSQL Database (2-3 days)
+Step 1: Install and Configure Drizzle ORM
+npm install @neondatabase/serverless drizzle-orm
+Step 2: Create Schema Files for External Integrations
+Create a new file shared/external-schema.ts:
+
+import { pgTable, serial, text, integer, timestamp, boolean, json } from 'drizzle-orm/pg-core';
+import { createInsertSchema } from 'drizzle-zod';
+import { z } from 'zod';
+import { users } from './schema';
+// Social Media Integration
+export const socialConnections = pgTable('social_connections', {
+  id: serial('id').primaryKey(),
+  userId: integer('user_id').references(() => users.id),
+  platform: text('platform'), // e.g., 'twitter', 'instagram', 'facebook'
+  accessToken: text('access_token'),
+  refreshToken: text('refresh_token'),
+  tokenExpiry: timestamp('token_expiry'),
+  platformUserId: text('platform_user_id'),
+  username: text('username'),
+  profileUrl: text('profile_url'),
+  isConnected: boolean('is_connected').default(true),
+  lastSynced: timestamp('last_synced'),
+  metadata: json('metadata')
+});
+// E-commerce Integrations
+export const ecommerceConnections = pgTable('ecommerce_connections', {
+  id: serial('id').primaryKey(),
+  userId: integer('user_id').references(() => users.id),
+  platform: text('platform'), // e.g., 'shopify', 'woocommerce'
+  shopName: text('shop_name'),
+  shopDomain: text('shop_domain'),
+  apiKey: text('api_key'),
+  apiSecret: text('api_secret'),
+  accessToken: text('access_token'),
+  refreshToken: text('refresh_token'),
+  isConnected: boolean('is_connected').default(true),
+  lastSynced: timestamp('last_synced'),
+  metadata: json('metadata')
+});
+// Analytics Websites Tracking
+export const trackedWebsites = pgTable('tracked_websites', {
+  id: serial('id').primaryKey(),
+  userId: integer('user_id').references(() => users.id),
+  domain: text('domain'),
+  name: text('name'),
+  trackingId: text('tracking_id'),
+  createdAt: timestamp('created_at').defaultNow(),
+  isActive: boolean('is_active').default(true)
+});
+// Analytics Data
+export const pageViews = pgTable('page_views', {
+  id: serial('id').primaryKey(),
+  websiteId: integer('website_id').references(() => trackedWebsites.id),
+  url: text('url'),
+  title: text('title'),
+  referrer: text('referrer'),
+  userAgent: text('user_agent'),
+  ipAddress: text('ip_address'),
+  timestamp: timestamp('timestamp'),
+  sessionId: text('session_id'),
+  visitorId: text('visitor_id')
+});
+export const events = pgTable('events', {
+  id: serial('id').primaryKey(),
+  websiteId: integer('website_id').references(() => trackedWebsites.id),
+  eventName: text('event_name'),
+  eventData: json('event_data'),
+  url: text('url'),
+  timestamp: timestamp('timestamp'),
+  sessionId: text('session_id'),
+  visitorId: text('visitor_id')
+});
+// Create insert schemas with Zod
+export const insertSocialConnectionSchema = createInsertSchema(socialConnections);
+export const insertEcommerceConnectionSchema = createInsertSchema(ecommerceConnections);
+export const insertTrackedWebsiteSchema = createInsertSchema(trackedWebsites);
+export const insertPageViewSchema = createInsertSchema(pageViews);
+export const insertEventSchema = createInsertSchema(events);
+// Create types
+export type SocialConnection = typeof socialConnections.$inferSelect;
+export type InsertSocialConnection = z.infer<typeof insertSocialConnectionSchema>;
+export type EcommerceConnection = typeof ecommerceConnections.$inferSelect;
+export type InsertEcommerceConnection = z.infer<typeof insertEcommerceConnectionSchema>;
+export type TrackedWebsite = typeof trackedWebsites.$inferSelect;
+export type InsertTrackedWebsite = z.infer<typeof insertTrackedWebsiteSchema>;
+export type PageView = typeof pageViews.$inferSelect;
+export type InsertPageView = z.infer<typeof insertPageViewSchema>;
+export type Event = typeof events.$inferSelect;
+export type InsertEvent = z.infer<typeof insertEventSchema>;
+Step 3: Update Storage Interface
+Modify server/storage.ts to add the new methods:
+
+// Add to IStorage interface
+interface IStorage {
+  // ... existing methods
+  
+  // Social media methods
+  getSocialConnections(userId: number): Promise<SocialConnection[]>;
+  getSocialConnectionByPlatform(userId: number, platform: string): Promise<SocialConnection | undefined>;
+  createSocialConnection(connection: InsertSocialConnection): Promise<SocialConnection>;
+  updateSocialConnection(id: number, updates: Partial<SocialConnection>): Promise<SocialConnection | undefined>;
+  
+  // E-commerce methods
+  getEcommerceConnections(userId: number): Promise<EcommerceConnection[]>;
+  getEcommerceConnectionByPlatform(userId: number, platform: string): Promise<EcommerceConnection | undefined>;
+  createEcommerceConnection(connection: InsertEcommerceConnection): Promise<EcommerceConnection>;
+  updateEcommerceConnection(id: number, updates: Partial<EcommerceConnection>): Promise<EcommerceConnection | undefined>;
+  
+  // Analytics methods
+  getTrackedWebsites(userId: number): Promise<TrackedWebsite[]>;
+  getTrackedWebsiteById(id: number): Promise<TrackedWebsite | undefined>;
+  createTrackedWebsite(website: InsertTrackedWebsite): Promise<TrackedWebsite>;
+  recordPageView(pageView: InsertPageView): Promise<PageView>;
+  recordEvent(event: InsertEvent): Promise<Event>;
+  getPageViewsByWebsite(websiteId: number, startDate: Date, endDate: Date): Promise<PageView[]>;
+  getEventsByWebsite(websiteId: number, startDate: Date, endDate: Date): Promise<Event[]>;
+}
+Step 4: Update DB.ts for PostgreSQL Connection
+import { Pool, neonConfig } from '@neondatabase/serverless';
+import { drizzle } from 'drizzle-orm/neon-serverless';
+import ws from "ws";
+import * as schema from "@shared/schema";
+import * as externalSchema from "@shared/external-schema";
+neonConfig.webSocketConstructor = ws;
+if (!process.env.DATABASE_URL) {
+  throw new Error(
+    "DATABASE_URL must be set. Did you forget to provision a database?",
+  );
+}
+export const pool = new Pool({ connectionString: process.env.DATABASE_URL });
+export const db = drizzle({ 
+  client: pool, 
+  schema: { ...schema, ...externalSchema } 
+});
+Step 5: Implement Database Storage Class
+Create server/database-storage.ts:
+

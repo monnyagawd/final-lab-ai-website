@@ -1,0 +1,65 @@
+Last login: Wed May 28 22:40:08 on ttys000
+monyusuf@Mons-MacBook-Air ~ % cd ~/Documents/final-lab-ai-website
+monyusuf@Mons-MacBook-Air final-lab-ai-website % git init
+git add .
+git commit -m "Initial commit - Lab AI website"
+Initialized empty Git repository in /Users/monyusuf/Documents/final-lab-ai-website/.git/
+warning: adding embedded git repository: Preview 3
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> Preview 3
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached Preview 3
+hint: 
+hint: See "git help submodule" for more information.
+[main (root-commit) f8ca4db] Initial commit - Lab AI website
+ Committer: Mon Yusuf <monyusuf@Mons-MacBook-Air.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .DS_Store
+ create mode 160000 Preview 3
+monyusuf@Mons-MacBook-Air final-lab-ai-website % git remote add https://github.com/monnyagawd/final-lab-ai-website
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+monyusuf@Mons-MacBook-Air final-lab-ai-website % git branch -M main
+monyusuf@Mons-MacBook-Air final-lab-ai-website % git push -u origin main
+
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+monyusuf@Mons-MacBook-Air final-lab-ai-website % npm run build:static
+
+npm error Missing script: "build:static"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /Users/monyusuf/.npm/_logs/2025-05-29T05_47_45_873Z-debug-0.log
+monyusuf@Mons-MacBook-Air final-lab-ai-website % 

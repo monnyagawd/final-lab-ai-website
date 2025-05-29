@@ -1,0 +1,49 @@
+Last login: Wed May 28 22:36:35 on ttys000
+monyusuf@Mons-MacBook-Air ~ % cd path/to/your/lab-ai-project
+cd: no such file or directory: path/to/your/lab-ai-project
+monyusuf@Mons-MacBook-Air ~ % cd path/to/your/preview 3     
+cd: string not in pwd: path/to/your/preview
+monyusuf@Mons-MacBook-Air ~ % ls
+AirFrchatbot.html		aifr-mortgage-theme
+CRM demo			aifrwebsite';.html
+Desktop				aifrwebsitetest.html
+Documents			aifrwebsitetest.html.zip
+Downloads			eliza
+Library				gaianet
+MortgageChatbot..ts		my-mortgage-app
+Movies				node_modules
+Music				package-lock.json
+Pictures			package.json
+Public				projects
+aifr-mortgage			tik tok day 2.drp
+monyusuf@Mons-MacBook-Air ~ % find ~ -name "package.json" -type f 2>/dev/null | head -10
+/Users/monyusuf/eliza/node_modules/pako/package.json
+/Users/monyusuf/eliza/node_modules/postcss-attribute-case-insensitive/package.json
+/Users/monyusuf/eliza/node_modules/jest-runtime/node_modules/@types/node/package.json
+/Users/monyusuf/eliza/node_modules/jest-runtime/node_modules/undici-types/package.json
+/Users/monyusuf/eliza/node_modules/jest-runtime/node_modules/strip-bom/package.json
+/Users/monyusuf/eliza/node_modules/jest-runtime/node_modules/glob/package.json
+/Users/monyusuf/eliza/node_modules/jest-runtime/package.json
+/Users/monyusuf/eliza/node_modules/queue-microtask/package.json
+/Users/monyusuf/eliza/node_modules/citty/package.json
+/Users/monyusuf/eliza/node_modules/browserify/test/browser_field_resolve/i/package.json
+monyusuf@Mons-MacBook-Air ~ % cd Desktop
+ls
+Screenshot 2024-12-20 at 9.03.06 PM.png
+Screenshot 2025-01-08 at 9.18.36 PM.png
+Screenshot 2025-01-08 at 9.43.56 PM.png
+Screenshot 2025-01-08 at 9.46.42 PM.png
+Screenshot 2025-01-19 at 8.26.22 AM.png
+Screenshot 2025-01-19 at 8.32.02 AM.png
+Screenshot 2025-03-08 at 3.41.20 PM.png
+monyusuf@Mons-MacBook-Air Desktop % cd Documents
+ls
+cd: no such file or directory: Documents
+Screenshot 2024-12-20 at 9.03.06 PM.png
+Screenshot 2025-01-08 at 9.18.36 PM.png
+Screenshot 2025-01-08 at 9.43.56 PM.png
+Screenshot 2025-01-08 at 9.46.42 PM.png
+Screenshot 2025-01-19 at 8.26.22 AM.png
+Screenshot 2025-01-19 at 8.32.02 AM.png
+Screenshot 2025-03-08 at 3.41.20 PM.png
+monyusuf@Mons-MacBook-Air Desktop % 

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab AI Analytics</title>
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <img src="images/icon48.png" alt="Lab AI Analytics Logo">
+        <h1>Lab AI Analytics</h1>
+      </div>
+      <div id="status-indicator" class="status-indicator">
+        <span class="status-dot"></span>
+        <span class="status-text">Not connected</span>
+      </div>
+    </header>
+
+    <!-- Login Form (shown when not logged in) -->
+    <div id="login-container" class="section">
+      <h2>Sign in to your account</h2>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required placeholder="••••••••">
+        </div>
+        <button type="submit" class="btn btn-primary">Sign In</button>
+      </form>
+      <p class="text-center">
+        <a href="https://www.labai.com/signup" target="_blank" class="signup-link">Don't have an account? Sign up</a>
+      </p>
+    </div>
+
+    <!-- Main content (shown when logged in) -->
+    <div id="main-container" class="section" style="display: none;">
+      <!-- Current website info -->
+      <div id="current-website" class="website-info">
+        <h2>Current Website</h2>
+        <div class="website-details">
+          <p id="website-url">URL: <span>-</span></p>
+          <p id="website-tracking-status">Tracking: <span class="not-tracked">Not Tracked</span></p>
+        </div>
+        <div id="activate-tracking-container">
+          <button id="activate-tracking" class="btn btn-primary">Activate Tracking</button>
+          <p class="help-text">Enable tracking on this website to collect analytics data.</p>
+        </div>
+        <div id="tracking-active-container" style="display: none;">
+          <p class="success-text">Tracking is active for this website.</p>
+          <button id="view-analytics" class="btn btn-secondary">View Analytics</button>
+        </div>
+      </div>
+
+      <!-- Quick insights (shown after analysis) -->
+      <div id="quick-insights" class="section" style="display: none;">
+        <h2>Quick Insights</h2>
+        <div class="scores-container">
+          <div class="score-item">
+            <div class="score-circle" id="performance-score">0</div>
+            <p>Performance</p>
+          </div>
+          <div class="score-item">
+            <div class="score-circle" id="seo-score">0</div>
+            <p>SEO</p>
+          </div>
+          <div class="score-item">
+            <div class="score-circle" id="accessibility-score">0</div>
+            <p>Accessibility</p>
+          </div>
+          <div class="score-item">
+            <div class="score-circle" id="mobile-score">0</div>
+            <p>Mobile</p>
+          </div>
+        </div>
+        <div class="insights-summary" id="insights-summary">
+          <p>Analyze this website to see insights here.</p>
+        </div>
+        <button id="analyze-website" class="btn btn-primary">Analyze Website</button>
+        <button id="view-full-report" class="btn btn-secondary" style="display: none;">View Full Report</button>
+      </div>
+
+      <!-- Your websites list -->
+      <div class="section">
+        <h2>Your Tracked Websites</h2>
+        <div id="tracked-websites-list" class="websites-list">
+          <p class="empty-state">No websites found. Activate tracking on a website to get started.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loading indicator -->
+    <div id="loading-indicator" class="loading-container" style="display: none;">
+      <div class="spinner"></div>
+      <p id="loading-text">Loading...</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div id="user-info" style="display: none;">
+        Logged in as <span id="user-email"></span>
+        <a href="#" id="logout-link">Logout</a>
+      </div>
+      <div class="links">
+        <a href="https://www.labai.com/dashboard" target="_blank">Go to Dashboard</a>
+        <a href="https://www.labai.com/help" target="_blank">Help</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/popup.js"></script>
+</body>
+</html>

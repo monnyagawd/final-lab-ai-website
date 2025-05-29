@@ -1,0 +1,119 @@
+👋 Hi there! I'm the Lab AI virtual assistant. How can I help you today?
+08:50 PM
+hello
+08:53 PM
+👋 WELCOME TO LAB AI 👋
+
+Hello there! I'm your virtual customer service assistant, ready to help 24/7.
+
+Please select a number from the menu below:
+
+1️⃣ Website design and development information
+2️⃣ Pricing and package details
+3️⃣ Schedule a consultation
+4️⃣ Analytics and social media services
+5️⃣ E-commerce and inventory solutions
+6️⃣ Contact our team
+7️⃣ Account login help
+8️⃣ Technical support
+
+To select an option, please reply with its number only (1-8).
+For example, type '2' for pricing and package details.
+08:53 PM
+4
+08:53 PM
+📊 ANALYTICS & SOCIAL MEDIA SERVICES 📊
+
+Here's what we offer:
+
+1️⃣ Website performance tracking
+2️⃣ Social media management
+3️⃣ Content creation and strategy
+4️⃣ Audience growth campaigns
+5️⃣ Competition analysis
+0️⃣ Return to main menu
+
+To learn more about a specific service, please reply with its number (1-5).
+For example, type '1' for details about website performance tracking.
+08:53 PM
+1
+08:53 PM
+🌐 WEBSITE DESIGN & DEVELOPMENT SERVICES 🌐
+
+Here's what we offer:
+
+1️⃣ Custom responsive design for all devices
+2️⃣ User experience (UX) focused layouts
+3️⃣ Search engine optimization (SEO)
+4️⃣ Content management systems
+5️⃣ E-commerce solutions
+0️⃣ Return to main menu
+
+To learn more about a specific service, please reply with its number (1-5).
+For example, type '1' for details about custom responsive design.
+08:53 PM
+2
+08:53 PM
+🎨 USER EXPERIENCE (UX) DESIGN 🎨
+
+Our UX-focused layouts are designed to delight visitors and drive conversions:
+
+• Intuitive navigation that guides users to key information
+• Strategic call-to-action placement for higher conversion rates
+• Consistent design elements for easy brand recognition
+• User testing to ensure optimal usability
+• Accessible design that works for all users
+
+Our UX process includes user research, wireframing, prototyping, and iterative testing.
+
+Would you like to:
+
+1️⃣ Learn about our UX research methods
+2️⃣ See examples of successful UX redesigns
+3️⃣ Get pricing for UX design services
+9️⃣ Return to website services menu
+0️⃣ Return to main menu
+08:53 PM
+3
+08:53 PM
+🔍 SEARCH ENGINE OPTIMIZATION (SEO) 🔍
+
+Our SEO services help your website rank higher in search results:
+
+• Keyword research and strategic implementation
+• On-page optimization (meta tags, headers, content)
+• Technical SEO (site speed, mobile-friendliness, indexing)
+• Local SEO for businesses serving specific areas
+• Regular performance reporting and strategy adjustments
+
+We focus on sustainable, white-hat SEO practices that provide long-term results.
+
+Would you like to:
+
+1️⃣ Learn about our SEO strategy process
+2️⃣ See case studies of our SEO results
+3️⃣ Get pricing for SEO services
+9️⃣ Return to website services menu
+0️⃣ Return to main menu
+08:53 PM
+3
+08:53 PM
+🔍 SEARCH ENGINE OPTIMIZATION (SEO) 🔍
+
+Our SEO services help your website rank higher in search results:
+
+• Keyword research and strategic implementation
+• On-page optimization (meta tags, headers, content)
+• Technical SEO (site speed, mobile-friendliness, indexing)
+• Local SEO for businesses serving specific areas
+• Regular performance reporting and strategy adjustments
+
+We focus on sustainable, white-hat SEO practices that provide long-term results.
+
+Would you like to:
+
+1️⃣ Learn about our SEO strategy process
+2️⃣ See case studies of our SEO results
+3️⃣ Get pricing for SEO services
+9️⃣ Return to website services menu
+0️⃣ Return to main menu
